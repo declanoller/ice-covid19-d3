@@ -1,0 +1,760 @@
+{
+    "fac_coords_list": [
+        {
+            "facility": "ADAMS COUNTY DET CENTER",
+            "coords": [
+                39.87376022338867,
+                -104.33663177490234
+            ]
+        },
+        {
+            "facility": "ADELANTO ICE PROCESSING CENTER",
+            "coords": [
+                34.579219818115234,
+                -117.41010284423828
+            ]
+        },
+        {
+            "facility": "ALLEN PARISH PUBLIC SAFETY COMPLEX",
+            "coords": [
+                30.65271759033203,
+                -92.82797241210938
+            ]
+        },
+        {
+            "facility": "ANNEX - FOLKSTON IPC",
+            "coords": [
+                30.851665496826172,
+                -81.92896270751953
+            ]
+        },
+        {
+            "facility": "BAKER COUNTY SHERIFF'S OFFICE",
+            "coords": [
+                30.2947,
+                -82.12409
+            ]
+        },
+        {
+            "facility": "BERGEN COUNTY JAIL",
+            "coords": [
+                40.873416900634766,
+                -74.03999328613281
+            ]
+        },
+        {
+            "facility": "BERKS COUNTY FAMILY SHELTER",
+            "coords": [
+                40.41633605957031,
+                -75.9260482788086
+            ]
+        },
+        {
+            "facility": "BOONE COUNTY JAIL",
+            "coords": [
+                38.96998596191406,
+                -84.7278823852539
+            ]
+        },
+        {
+            "facility": "BRISTOL COUNTY DETENTION CENTER",
+            "coords": [
+                41.757144927978516,
+                -71.08846282958984
+            ]
+        },
+        {
+            "facility": "BROWARD TRANSITIONAL CENTER",
+            "coords": [
+                26.152246475219727,
+                -80.48703002929688
+            ]
+        },
+        {
+            "facility": "BUFFALO (BATAVIA) SERVICE PROCESSING CENTER",
+            "coords": [
+                42.885440826416016,
+                -78.87846374511719
+            ]
+        },
+        {
+            "facility": "BUTLER COUNTY JAIL",
+            "coords": [
+                39.438636779785156,
+                -84.5758285522461
+            ]
+        },
+        {
+            "facility": "CALHOUN COUNTY CORRECTIONAL CENTER",
+            "coords": [
+                33.77138137817383,
+                -85.82611083984375
+            ]
+        },
+        {
+            "facility": "CAMBRIA COUNTY JAIL",
+            "coords": [
+                37.35067,
+                -121.90684
+            ]
+        },
+        {
+            "facility": "CAROLINE DETENTION FACILITY",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "CATAHOULA CORRECTIONAL CENTER",
+            "coords": [
+                31.66635513305664,
+                -91.84686279296875
+            ]
+        },
+        {
+            "facility": "CCA, FLORENCE CORRECTIONAL CENTER",
+            "coords": [
+                43.782371520996094,
+                11.254989624023438
+            ]
+        },
+        {
+            "facility": "CHASE COUNTY DETENTION FACILITY",
+            "coords": [
+                38.30203628540039,
+                -96.59385681152344
+            ]
+        },
+        {
+            "facility": "CHIPPEWA COUNTY SSM",
+            "coords": [
+                46.48027038574219,
+                -84.36553955078125
+            ]
+        },
+        {
+            "facility": "CIBOLA COUNTY CORRECTIONAL CENTER",
+            "coords": [
+                34.9123649597168,
+                -108.00005340576172
+            ]
+        },
+        {
+            "facility": "CLAY COUNTY JAIL",
+            "coords": [
+                39.31047058105469,
+                -94.42093658447266
+            ]
+        },
+        {
+            "facility": "CLINTON COUNTY CORRECTIONAL FACILITY",
+            "coords": [
+                39.41497039794922,
+                -83.80847930908203
+            ]
+        },
+        {
+            "facility": "COASTAL BEND DETENTION FACILITY",
+            "coords": [
+                28.4356632232666,
+                -97.75660705566406
+            ]
+        },
+        {
+            "facility": "DENVER CONTRACT DETENTION FACILITY",
+            "coords": [
+                39.74000930786133,
+                -104.99201965332031
+            ]
+        },
+        {
+            "facility": "DENVER CONTRACT DETENTION FACILITY (CDF) II",
+            "coords": [
+                39.74000930786133,
+                -104.99201965332031
+            ]
+        },
+        {
+            "facility": "DODGE COUNTY JAIL",
+            "coords": [
+                43.4162712097168,
+                -88.70751190185547
+            ]
+        },
+        {
+            "facility": "EDEN DETENTION CENTER",
+            "coords": [
+                31.55936,
+                -93.46374
+            ]
+        },
+        {
+            "facility": "EL PASO SERVICE PROCESSING CENTER",
+            "coords": [
+                31.759159088134766,
+                -106.48748779296875
+            ]
+        },
+        {
+            "facility": "EL VALLE DETENTION FACILITY",
+            "coords": [
+                8.607789993286133,
+                -80.13275909423828
+            ]
+        },
+        {
+            "facility": "ELIZABETH CONTRACT DETENTION FACILITY",
+            "coords": [
+                40.66381072998047,
+                -74.21144104003906
+            ]
+        },
+        {
+            "facility": "ELOY FEDERAL CONTRACT FACILITY",
+            "coords": [
+                32.752418518066406,
+                -111.55554962158203
+            ]
+        },
+        {
+            "facility": "ESSEX COUNTY CORRECTIONAL FACILITY",
+            "coords": [
+                40.786922454833984,
+                -74.24647521972656
+            ]
+        },
+        {
+            "facility": "ETOWAH COUNTY JAIL (ALABAMA)",
+            "coords": [
+                32.766502380371094,
+                -86.8403091430664
+            ]
+        },
+        {
+            "facility": "FLORENCE SERVICE PROCESSING CENTER",
+            "coords": [
+                43.782371520996094,
+                11.254989624023438
+            ]
+        },
+        {
+            "facility": "FREEBORN COUNTY ADULT DETENTION CENTER",
+            "coords": [
+                43.67384338378906,
+                -93.3488540649414
+            ]
+        },
+        {
+            "facility": "GEAUGA COUNTY JAIL",
+            "coords": [
+                34.59773,
+                -83.3163
+            ]
+        },
+        {
+            "facility": "GLADES COUNTY DETENTION CENTER",
+            "coords": [
+                26.95641326904297,
+                -81.18888854980469
+            ]
+        },
+        {
+            "facility": "HALL COUNTY DEPARTMENT OF CORRECTIONS",
+            "coords": [
+                34.31681823730469,
+                -83.81964111328125
+            ]
+        },
+        {
+            "facility": "HARDIN COUNTY JAIL",
+            "coords": [
+                37.6978874206543,
+                -85.96334838867188
+            ]
+        },
+        {
+            "facility": "HENDERSON DETENTION CENTER",
+            "coords": [
+                31.55936,
+                -93.46374
+            ]
+        },
+        {
+            "facility": "HOUSTON CONTRACT DETENTION FACILITY",
+            "coords": [
+                29.76058006286621,
+                -95.36968231201172
+            ]
+        },
+        {
+            "facility": "HOWARD COUNTY DETENTION CENTER",
+            "coords": [
+                39.251129150390625,
+                -76.93125915527344
+            ]
+        },
+        {
+            "facility": "HUDSON COUNTY CORRECTIONAL CENTER",
+            "coords": [
+                40.73016357421875,
+                -74.07564544677734
+            ]
+        },
+        {
+            "facility": "IAH SECURE ADULT DETENTION FACILITY (POLK)",
+            "coords": [
+                -15.225799560546875,
+                -64.93360137939453
+            ]
+        },
+        {
+            "facility": "IMMIGRATION CENTERS OF AMERICA FARMVILLE",
+            "coords": [
+                37.301979064941406,
+                -78.3926010131836
+            ]
+        },
+        {
+            "facility": "IMPERIAL REGIONAL DETENTION FACILITY",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "IRWIN COUNTY DETENTION CENTER",
+            "coords": [
+                31.60228729248047,
+                -83.27632141113281
+            ]
+        },
+        {
+            "facility": "JACKSON PARISH CORRECTIONAL CENTER",
+            "coords": [
+                32.30198669433594,
+                -92.55763244628906
+            ]
+        },
+        {
+            "facility": "JOE CORLEY ICE PROCESSING CENTER",
+            "coords": [
+                52.464908599853516,
+                -1.5589200258255005
+            ]
+        },
+        {
+            "facility": "JOHNSON COUNTY CORRECTIONS CENTER",
+            "coords": [
+                38.88377380371094,
+                -94.82222747802734
+            ]
+        },
+        {
+            "facility": "KANDIYOHI COUNTY JAIL",
+            "coords": [
+                45.27272,
+                -94.87554
+            ]
+        },
+        {
+            "facility": "KANKAKEE COUNTY JAIL (JEROME COMBS DET CTR)",
+            "coords": [
+                41.13771438598633,
+                -87.86181640625
+            ]
+        },
+        {
+            "facility": "KARNES COUNTY RESIDENTIAL CENTER",
+            "coords": [
+                28.905630111694336,
+                -97.85942077636719
+            ]
+        },
+        {
+            "facility": "KAY COUNTY JUSTICE FACILITY",
+            "coords": [
+                36.8180046081543,
+                -97.14386749267578
+            ]
+        },
+        {
+            "facility": "KENOSHA COUNTY DETENTION CENTER",
+            "coords": [
+                42.577239990234375,
+                -87.69383239746094
+            ]
+        },
+        {
+            "facility": "KROME NORTH SERVICE PROCESSING CENTER",
+            "coords": [
+                49.68975067138672,
+                -102.02889251708984
+            ]
+        },
+        {
+            "facility": "LAREDO PROCESSING CENTER",
+            "coords": [
+                27.530920028686523,
+                -99.50222778320312
+            ]
+        },
+        {
+            "facility": "LASALLE CORR CTR OLLA",
+            "coords": [
+                31.903839111328125,
+                -92.24201202392578
+            ]
+        },
+        {
+            "facility": "LASALLE ICE PROCESSING CENTER (JENA)",
+            "coords": [
+                50.92695999145508,
+                11.586339950561523
+            ]
+        },
+        {
+            "facility": "LIMESTONE COUNTY DETENTION CENTER",
+            "coords": [
+                34.81004333496094,
+                -86.98139953613281
+            ]
+        },
+        {
+            "facility": "MAIN - FOLKSTON IPC (D RAY JAMES)",
+            "coords": [
+                30.82971,
+                -82.01435
+            ]
+        },
+        {
+            "facility": "MCHENRY COUNTY CORRECTIONAL FACILITY",
+            "coords": [
+                42.32435607910156,
+                -88.45243072509766
+            ]
+        },
+        {
+            "facility": "MESA VERDE ICE PROCESSING CENTER",
+            "coords": [
+                37.33171844482422,
+                -108.41557312011719
+            ]
+        },
+        {
+            "facility": "MONROE COUNTY DETENTION CENTER",
+            "coords": [
+                43.30011749267578,
+                -77.6794204711914
+            ]
+        },
+        {
+            "facility": "MONROE COUNTY DETENTION-DORM",
+            "coords": [
+                43.30011749267578,
+                -77.6794204711914
+            ]
+        },
+        {
+            "facility": "MONTGOMERY COUNTY JAIL",
+            "coords": [
+                36.4970588684082,
+                -87.38288879394531
+            ]
+        },
+        {
+            "facility": "MONTGOMERY ICE PROCESSING CENTER",
+            "coords": [
+                32.380149841308594,
+                -86.30007934570312
+            ]
+        },
+        {
+            "facility": "MORGAN COUNTY ADULT DETENTION CENTER",
+            "coords": [
+                34.453460693359375,
+                -86.8528823852539
+            ]
+        },
+        {
+            "facility": "MORROW COUNTY CORRECTIONAL FACILITY",
+            "coords": [
+                40.5240592956543,
+                -82.79398345947266
+            ]
+        },
+        {
+            "facility": "NEVADA SOUTHERN DETENTION CENTER",
+            "coords": [
+                39.35641860961914,
+                -116.65541076660156
+            ]
+        },
+        {
+            "facility": "NYE COUNTY DETENTION CENTER, SOUTHERN (PAHRUMP)",
+            "coords": [
+                36.21356964111328,
+                -115.99140930175781
+            ]
+        },
+        {
+            "facility": "OKMULGEE COUNTY JAIL",
+            "coords": [
+                35.6466064453125,
+                -95.96427917480469
+            ]
+        },
+        {
+            "facility": "ORANGE COUNTY JAIL",
+            "coords": [
+                33.70304489135742,
+                -117.76130676269531
+            ]
+        },
+        {
+            "facility": "OTAY MESA DETENTION CENTER (SAN DIEGO CDF)",
+            "coords": [
+                32.71567916870117,
+                -117.16171264648438
+            ]
+        },
+        {
+            "facility": "OTERO COUNTY PROCESSING CENTER",
+            "coords": [
+                32.613162994384766,
+                -105.74142456054688
+            ]
+        },
+        {
+            "facility": "PIKE COUNTY CORRECTIONAL FACILITY",
+            "coords": [
+                41.33202362060547,
+                -75.03382110595703
+            ]
+        },
+        {
+            "facility": "PINE PRAIRIE ICE PROCESSING CENTER",
+            "coords": [
+                30.782779693603516,
+                -92.4255599975586
+            ]
+        },
+        {
+            "facility": "PLYMOUTH COUNTY CORRECTIONAL FACILITY",
+            "coords": [
+                41.95393371582031,
+                -70.80513000488281
+            ]
+        },
+        {
+            "facility": "POLK COUNTY JAIL",
+            "coords": [
+                27.948881149291992,
+                -81.69776153564453
+            ]
+        },
+        {
+            "facility": "PORT ISABEL",
+            "coords": [
+                26.077430725097656,
+                -97.2083969116211
+            ]
+        },
+        {
+            "facility": "PRAIRIELAND DETENTION FACILITY",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "PULASKI COUNTY JAIL",
+            "coords": [
+                34.76997375488281,
+                -92.31185913085938
+            ]
+        },
+        {
+            "facility": "RICHWOOD CORRECTIONAL CENTER",
+            "coords": [
+                38.22705841064453,
+                -80.52764892578125
+            ]
+        },
+        {
+            "facility": "RIO GRANDE DETENTION CENTER",
+            "coords": [
+                25.95611000061035,
+                -97.14527893066406
+            ]
+        },
+        {
+            "facility": "ROBERT A. DEYTON DETENTION FACILITY",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "ROLLING PLAINS DETENTION CENTER",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "SAINT CLAIR COUNTY JAIL",
+            "coords": [
+                38.470333099365234,
+                -89.92842102050781
+            ]
+        },
+        {
+            "facility": "SAN LUIS REGIONAL DETENTION CENTER",
+            "coords": [
+                32.48992156982422,
+                -114.7822494506836
+            ]
+        },
+        {
+            "facility": "SENECA COUNTY JAIL",
+            "coords": [
+                41.12385559082031,
+                -83.12772369384766
+            ]
+        },
+        {
+            "facility": "SHERBURNE COUNTY JAIL",
+            "coords": [
+                45.4439811706543,
+                -93.77471160888672
+            ]
+        },
+        {
+            "facility": "SOUTH LOUISIANA DETENTION CENTER",
+            "coords": [
+                31.55936,
+                -93.46374
+            ]
+        },
+        {
+            "facility": "SOUTH TEXAS FAMILY RESIDENTIAL CENTER",
+            "coords": [
+                31.462745666503906,
+                -99.33304595947266
+            ]
+        },
+        {
+            "facility": "SOUTH TEXAS ICE PROCESSING CENTER",
+            "coords": [
+                31.462745666503906,
+                -99.33304595947266
+            ]
+        },
+        {
+            "facility": "STEWART DETENTION CENTER",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "STRAFFORD COUNTY CORRECTIONS",
+            "coords": [
+                43.297637939453125,
+                -71.02947235107422
+            ]
+        },
+        {
+            "facility": "T DON HUTTO RESIDENTIAL CENTER",
+            "coords": [
+                30.543569564819336,
+                -97.54293060302734
+            ]
+        },
+        {
+            "facility": "TACOMA ICE PROCESSING CENTER (NORTHWEST DET CTR)",
+            "coords": [
+                47.255130767822266,
+                -122.44164276123047
+            ]
+        },
+        {
+            "facility": "TALLAHATCHIE CO CORR FACILITY",
+            "coords": [
+                33.950462341308594,
+                -90.17329406738281
+            ]
+        },
+        {
+            "facility": "TORRANCE COUNTY DETENTION FACILITY",
+            "coords": [
+                34.64046859741211,
+                -105.85082244873047
+            ]
+        },
+        {
+            "facility": "TULSA COUNTY JAIL (DAVID L. MOSS JUSTICE CTR)",
+            "coords": [
+                36.12106704711914,
+                -95.94146728515625
+            ]
+        },
+        {
+            "facility": "WAKULLA COUNTY JAIL",
+            "coords": [
+                30.16672134399414,
+                -84.39940643310547
+            ]
+        },
+        {
+            "facility": "WEBB COUNTY DETENTION CENTER (CCA)",
+            "coords": [
+                27.761062622070312,
+                -99.33158874511719
+            ]
+        },
+        {
+            "facility": "WEST TEXAS DETENTION FACILITY",
+            "coords": [
+                27.204730987548828,
+                -98.0349349975586
+            ]
+        },
+        {
+            "facility": "WINN CORRECTIONAL CENTER",
+            "coords": [
+                37.55588,
+                -78.46974
+            ]
+        },
+        {
+            "facility": "WORCESTER COUNTY JAIL",
+            "coords": [
+                42.35142517089844,
+                -71.9077377319336
+            ]
+        },
+        {
+            "facility": "WYATT DETENTION CENTER",
+            "coords": [
+                -40.87984085083008,
+                145.45004272460938
+            ]
+        },
+        {
+            "facility": "YORK COUNTY PRISON",
+            "coords": [
+                39.9199333190918,
+                -76.72645568847656
+            ]
+        },
+        {
+            "facility": "YUBA COUNTY JAIL",
+            "coords": [
+                39.26918411254883,
+                -121.35126495361328
+            ]
+        }
+    ]
+}

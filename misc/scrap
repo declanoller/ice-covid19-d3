@@ -1,0 +1,71 @@
+
+    var stackedData = d3.stack()
+    .keys(this.keys)(plot_data);
+    //console.log('stacked data: ');
+    //console.log(stackedData);
+
+    this.x.domain(d3.extent(plot_data, function(d) { return d.days; }));
+    this.svg_plot.selectAll(".myXaxis").transition()
+     .duration(1000)
+     .call(this.xAxis).selectAll("text")
+     .style("text-anchor", "end")
+       .attr("dx", "-.8em")
+       .attr("dy", ".15em")
+       .attr("transform", "rotate(-45)");
+
+    // create the Y axis
+    this.y.domain([0, d3.max(stackedData, d => d3.max(d, d => d[1]))]).nice();
+    this.svg_plot.selectAll(".myYaxis")
+     .transition()
+     .duration(1000)
+     .call(this.yAxis);
+
+     var x = this.x;
+     var y = this.y;
+
+
+    // Show confidence interval
+    this.plot_CI = this.svg_plot
+                      .selectAll("mylayers")
+                      .data(stackedData)
+                      .enter()
+                      .append("path")
+                      .style("fill", function(d) { return color(d.key); })
+                      .attr("d", d3.area()
+                        .x(function(d, i) {  return x(d.data.days); })
+                        .y0(function(d) { return y(d[0]); })
+                        .y1(function(d) { return y(d[1]); })
+                    );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    for fac in unique_facilities:
+
+                        fac_df = df_combined[df_combined['Facility']==fac]
+
+                        vc_dict = {}
+                        for vc in vary_cols:
+                            day_list = []
+                            for d in day_vals:
+                                vc_df = fac_df[fac_df['days']==d]
+
+                                r0_day_vals = ['days'] + vc_df['R0'].values.tolist()
+                                vc_day_vals = [d] + vc_df[vc].values.tolist()
+                                vc_day_dict = {r:v for r,v in zip(r0_day_vals, vc_day_vals)}
+                                day_list.append(vc_day_dict)
+
+                            vc_dict[vc] = day_list
+
+                        facilities_json[fac] = vc_dict

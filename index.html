@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+<script src="d3_classes.js"></script>
+<script src="map_class.js"></script>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+
+
+<div class="container">
+  <div class="item"  id="title">
+    Modeling COVID-19 and Impacts on ICE detention facilities in the US, 2020
+  </div>
+</div>
+
+<div class="container" id="select_container">
+  <div class="item" id="select_text_menu">
+    <div id="selectButtonText">Select facility:</div>
+    <div id="selectButtonDiv"><select id="selectButton"></select></div>
+  </div>
+  <div class="item" id="info_section">
+    <a href="https://docs.google.com/document/d/1AdKUc4Z750c88X-PoAcwZ2zlDduneLSgNNfwRJH_T4w/edit?usp=sharing">FAQ</a>
+    <br/>
+    <a href="https://docs.google.com/spreadsheets/d/1LRqIQACHo7_sDOHnD0l4lJzZuaJHg6dFrObk5AKr24g/edit?usp=sharing">Source data</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="item" id="map_container"></div>
+  <div class="item plot_container" id="plot_4"></div>
+</div>
+
+<div class="container">
+  <div class="item plot_container" id="plot_1"></div>
+  <div class="item plot_container" id="plot_2"></div>
+  <div class="item plot_container" id="plot_3"></div>
+</div>
+
+
+
+<script type="text/javascript">
+
+/*
+
+Created April 2020, by Declan Oller
+www.declanoller.com
+
+*/
+
+
+d3.json("data/us_map_coords.json", function(map_coords_data){
+
+d3.json("data/facilities_data.json", function(error, ice_data) {
+
+
+
+var fac_list = Object.keys(ice_data);
+//console.log(fac_list);
+var fac = fac_list[0];
+
+var x_label = "Days since first COVID-19 case in facility";
+
+var plot_1 = new Plot("#plot_1", ice_data, 'Cumulative Infections', x_label, 'Cumulative Infections', fac);
+var plot_2 = new Plot("#plot_2", ice_data, 'Hospitalizations', x_label, 'Hospitalizations', fac);
+var plot_3 = new Plot("#plot_3", ice_data, 'ICU Admissions', x_label, 'ICU Admissions', fac);
+
+var plot_4_label = "Extra ICU beds needed";
+
+var plot_4 = new Plot("#plot_4", ice_data, 'Demand for ICU beds exceeding local hospital capacity', x_label, plot_4_label, fac);
+var cur_selected = fac;
+
+var map = new Map("#map_container", map_coords_data, ice_data, updateAll);
+
+
+updateAll(cur_selected);
+
+//////////////////////////////////
+//        UPDATE FUNCTIONS
+//////////////////////////////////
+
+function updateAll(new_selected) {
+
+  cur_selected = new_selected;
+  d3.select('#selectButton').property('value', cur_selected);
+
+  plot_1.updateData(new_selected);
+  plot_2.updateData(new_selected);
+  plot_3.updateData(new_selected);
+  plot_4.updateData(new_selected);
+
+  map.updateSelected(new_selected);
+
+}
+
+
+// add the options to the button
+d3.select("#selectButton")
+  .selectAll('myOptions')
+  .data(Object.keys(ice_data))
+  .enter()
+  .append('option')
+  .text(function (d) { return d; }) // text showed in the menu
+  .attr("value", function (d) { return d; }) // corresponding value returned by the button
+
+d3.select('#selectButton').property('value', cur_selected);
+
+// When the button is changed, run the updateChart function
+d3.select("#selectButton").on("change", function(d) {
+    // recover the option that has been chosen
+    var selectedOption = d3.select(this).property("value");
+    // run the updateChart function with this selected option
+    updateAll(selectedOption);
+})
+
+
+});//all_states.csv
+
+});//us_map_coords.json
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
