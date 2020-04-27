@@ -1,4 +1,10 @@
 
+/*
+
+Created April 2020, by Declan Oller
+www.declanoller.com
+
+*/
 
 class Plot {
 
